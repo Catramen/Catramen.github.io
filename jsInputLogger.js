@@ -1,11 +1,22 @@
 var jsMouseEnabled = true;
 var jsTouchEnabled = true;
 var jsPointerEnabled = true;
-function InitializeApp() {
+var PointerOnly = true;
+function ToggleJsEvent() {
+	InitializeApp(PointerOnly);
+	PointerOnly = !PointerOnly; 
+}
+function InitializeApp(pointerOnly) {
 	var elem = document.getElementById("body");
-	console.log("Adding PointerEvent listeners");
+	if (pointerOnly) {
+		console.log("Adding PointerEvent listeners");
+		["pointerdown", "pointermove", "pointerup"].forEach(function(e) {
+			elem.addEventListener(e, PointerHandler);
+		});
+		return;
+	}
 	["pointerdown", "pointermove", "pointerup"].forEach(function(e) {
-		elem.addEventListener(e, PointerHandler);
+		elem.removeEventListener(e, PointerHandler);
 	});
 	console.log("Adding MouseEvent");
 	["mousedown", "mousemove", "mouseup"].forEach(function(e) {
