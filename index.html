@@ -9,32 +9,34 @@
   <script type="text/javascript" src="naclInputLogger.js"></script>
 </head>
 <body id="body">
-  <h1>Input Logger</h1>
-  <div id="listener">
-    <script type="text/javascript">
-    var listener = document.getElementById('listener');
-    listener.addEventListener('load', moduleDidLoad, true);
-    listener.addEventListener('message', handleMessage, true);
-    </script>
-    <embed id="naclLogger"
-    width=0 height=0
-    src="naclLogger.nmf"
-    type="application/x-pnacl" />
+  <header>
+ <div id="listener">
+  <script type="text/javascript">
+  var listener = document.getElementById('listener');
+  listener.addEventListener('load', moduleDidLoad, true);
+  listener.addEventListener('message', handleMessage, true);
+  </script>
+  <embed id="naclLogger"
+  src="naclLogger.nmf"
+  type="application/x-pnacl" style="float:left;margin-left: 0px;height:50px;width:500px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;" >
+  <embed/>
   </div>
-  <div>
-    <button type="button" onclick="ToggleJsEvent()">Toggle JS Event</button>
+ </header>
+<h1> input</h1>
+<div>
+  <button type="button" onclick="ToggleJsEvent()">Toggle JS Event</button>
+</div>
+<!--   <textarea rows="50" col="200" id="nacllog" style="margin-left: 0px; margin-right: 0px; width: 400px;"></textarea> -->
+<div>
+  <div id="jsInputLog" style="float:left;margin-left: 0px;height:1000px;width:500px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
   </div>
-  <!--   <textarea rows="50" col="200" id="nacllog" style="margin-left: 0px; margin-right: 0px; width: 400px;"></textarea> -->
-  <div>
-    <div id="jsInputLog" style="float:left;margin-left: 0px;height:1000px;width:500px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
-    </div>
 
-    <div id="naclInputLog" style="float:left;margin-left: 20px;height:1000px;width:500px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
-    </div> 
-  </div>
-  <script type="text/javascript">ToggleJsEvent(); </script>
+  <div id="naclInputLog" style="float:left;margin-left: 20px;height:1000px;width:500px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+  </div> 
+</div>
+<script type="text/javascript">ToggleJsEvent(); </script>
 
-  <!--   <textarea rows="50" col="200"id="jslog" style="margin-left: 0px; margin-right: 0px; width: 400px;"></textarea> -->
+<!--   <textarea rows="50" col="200"id="jslog" style="margin-left: 0px; margin-right: 0px; width: 400px;"></textarea> -->
 </body>
 
 </html>

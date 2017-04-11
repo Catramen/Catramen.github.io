@@ -51,23 +51,24 @@ public:
     // PostMessage("var_reply");
   }
   virtual bool HandleInputEvent(const pp::InputEvent& event) {
-    PostMessage("blue");
-    PostMessage("event received");
+          //     PostMessage("red");
+          // PostMessage(std::to_string(static_cast<int>(event.GetType())));
+
     switch (event.GetType()) {
-      case PP_INPUTEVENT_TYPE_MOUSEDOWN: {
-        mousedown_ = true;
-        return true;
-      }
+      // case PP_INPUTEVENT_TYPE_MOUSEDOWN: {
+      //   mousedown_ = true;
+      //   return true;
+      // }
       case PP_INPUTEVENT_TYPE_MOUSEMOVE: {
         pp::MouseInputEvent mouse_event(event);
-        if (mousedown_) {
+        //if (mousedown_) {
           PostMessage("red");
           PostMessage("MouseMove Event x: " + std::to_string(static_cast<int>(mouse_event.GetPosition().x())) + 
             " y: "+ std::to_string(static_cast<int>(mouse_event.GetPosition().y())));
-        }
+        //}
       }
       case  PP_INPUTEVENT_TYPE_MOUSEUP: {
-        mousedown_ = false;
+        mousedown_ = ! mousedown_;
         return true;
       }
       case PP_INPUTEVENT_TYPE_TOUCHSTART: {

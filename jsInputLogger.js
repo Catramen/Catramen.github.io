@@ -13,19 +13,20 @@ function InitializeApp(pointerOnly) {
 		["pointerdown", "pointermove", "pointerup"].forEach(function(e) {
 			elem.addEventListener(e, PointerHandler);
 		});
-		return;
+	} else {
+		["pointerdown", "pointermove", "pointerup"].forEach(function(e) {
+			elem.removeEventListener(e, PointerHandler);
+		});
+		console.log("Adding MouseEvent");
+		["mousedown", "mousemove", "mouseup"].forEach(function(e) {
+			elem.addEventListener(e, MouseHandler);
+		});
+		console.log("Adding Touch");
+		["touchstart", "touchmove", "touchend"].forEach(function(e) {
+			elem.addEventListener(e, TouchHandler);
+		});
+
 	}
-	["pointerdown", "pointermove", "pointerup"].forEach(function(e) {
-		elem.removeEventListener(e, PointerHandler);
-	});
-	console.log("Adding MouseEvent");
-	["mousedown", "mousemove", "mouseup"].forEach(function(e) {
-		elem.addEventListener(e, MouseHandler);
-	});
-	console.log("Adding Touch");
-	["touchstart", "touchmove", "touchend"].forEach(function(e) {
-		elem.addEventListener(e, TouchHandler);
-	});
 }
 
 var mousePressed = false;
