@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+  <title>Input Logger</title>
+  <script type="text/javascript" src="logger.js"></script>
+  <script type="text/javascript" src="jsInputLogger.js"></script>
+  <script type="text/javascript" src="example.js"></script>
+</head>
+<body id="body">
+  <h1>Input Logger</h1>
+  <h2>Status: <code id="statusField">NO-STATUS</code></h2>
+  <div id="listener"></div>
+  <div>
+    <button type="button" onclick="handleMessage('hello world')">Click Me!</button>
+    <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+    <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+    <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+  </div>
+  <!--   <textarea rows="50" col="200" id="nacllog" style="margin-left: 0px; margin-right: 0px; width: 400px;"></textarea> -->
+  <div>
+    <div id="jsInputLog" style="float:left;margin-left: 0px;height:1000px;width:500px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+    </div>
+
+    <div id="pepperInputLog" style="float:left;margin-left: 20px;height:1000px;width:500px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+    </div> 
+  </div>
+  <script type="text/javascript">InitializeApp(); </script>
+
+  <!--   <textarea rows="50" col="200"id="jslog" style="margin-left: 0px; margin-right: 0px; width: 400px;"></textarea> -->
+</body>
+
+</html>
