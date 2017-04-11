@@ -12,6 +12,7 @@
 #include "ppapi/cpp/view.h"
 #include "ppapi/utility/graphics/paint_manager.h"
 #include <string>
+#include <unistd.h>
 
 /// The Instance class.  One of these exists for each instance of your NaCl
 /// module on the web page.  The browser will ask the Module object to create
@@ -26,7 +27,7 @@ class NaclLoggerInstance : public pp::Instance {
 public:
   /// The constructor creates the plugin-side instance.
   /// @param[in] instance the handle to the browser-side plugin instance.
-  explicit NaclLoggerInstance(PP_Instance instance) : pp::Instance(instance), mousedown_(false), touchdown_(false)
+  explicit NaclLoggerInstance(PP_Instance instance) : pp::Instance(instance), mousedown_(false), touchdown_(false), sleep_(false)
   {
       RequestInputEvents(PP_INPUTEVENT_CLASS_MOUSE | PP_INPUTEVENT_CLASS_TOUCH);
       PostMessage("red");
@@ -43,7 +44,10 @@ public:
     // Ignore the message if it is not a string.
     if (!var_message.is_string())
       return;
-
+    std::string msg = var_message.AsString();
+    if (msg == "ToggleDelay") {
+      sleep_ = !sleep_; 
+    }
     // Get the string message and compare it to "hello".
     // PostMessage("red");
     // PostMessage("var_reply");
@@ -53,7 +57,9 @@ public:
   virtual bool HandleInputEvent(const pp::InputEvent& event) {
           //     PostMessage("red");
           // PostMessage(std::to_string(static_cast<int>(event.GetType())));
-
+    if(sleep_) {
+     usleep(30000);     
+    }
     switch (event.GetType()) {
       // case PP_INPUTEVENT_TYPE_MOUSEDOWN: {
       //   mousedown_ = true;
@@ -95,6 +101,7 @@ public:
 private:
   bool mousedown_;
   bool touchdown_;
+  bool sleep_;
 };
 
 /// The Module class.  The browser calls the CreateInstance() method to create
