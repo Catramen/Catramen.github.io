@@ -7,11 +7,19 @@ function ToggleJsEvent() {
 	PointerOnly = !PointerOnly; 
 }
 function InitializeApp(pointerOnly) {
-	var elem = document.getElementById("body");
+	var elem = document.getElementById("naclLogger");
 	if (pointerOnly) {
 		console.log("Adding PointerEvent listeners");
 		["pointerdown", "pointermove", "pointerup"].forEach(function(e) {
 			elem.addEventListener(e, PointerHandler);
+		});
+		console.log("Adding MouseEvent");
+		["mousedown", "mousemove", "mouseup"].forEach(function(e) {
+			elem.removeEventListener(e, MouseHandler);
+		});
+		console.log("Adding Touch");
+		["touchstart", "touchmove", "touchend"].forEach(function(e) {
+			elem.removeEventListener(e, TouchHandler);
 		});
 	} else {
 		["pointerdown", "pointermove", "pointerup"].forEach(function(e) {
