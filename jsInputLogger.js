@@ -49,7 +49,6 @@ function PointerHandler(event) {
 			var points = event.getCoalescedEvents();
 			for(let coalesced of points) {
 				LogTo('jsInputLog', "grey", "Coalesced Pointer Input: x: " + coalesced.pageX + " y: " + coalesced.pageY);
-
 			}			
 		}
 	}
@@ -85,6 +84,6 @@ function TouchHandler(event) {
 		return;
 	}
 	if (TouchDown) {
-		LogTo('jsInputLog', "Blue", "Touch Input: x: " + event.pageX + " y: " + event.pageY);
+		LogTo('jsInputLog', "Blue", "Touch Input: x: " + event.touches[0].pageX + " y: " + event.touches[0].pageY);
 	}
 }
