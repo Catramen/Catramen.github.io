@@ -7,12 +7,8 @@ function ToggleJsEvent() {
 	PointerOnly = !PointerOnly; 
 }
 function InitializeApp(pointerOnly) {
-	var elem = document.getElementById("naclLogger");
+	var elem = document.getElementById("body");
 	if (pointerOnly) {
-		console.log("Adding PointerEvent listeners");
-		["pointerdown", "pointermove", "pointerup"].forEach(function(e) {
-			elem.addEventListener(e, PointerHandler);
-		});
 		console.log("Adding MouseEvent");
 		["mousedown", "mousemove", "mouseup"].forEach(function(e) {
 			elem.removeEventListener(e, MouseHandler);
@@ -21,6 +17,11 @@ function InitializeApp(pointerOnly) {
 		["touchstart", "touchmove", "touchend"].forEach(function(e) {
 			elem.removeEventListener(e, TouchHandler);
 		});
+		console.log("Adding PointerEvent listeners");
+		["pointerdown", "pointermove", "pointerup"].forEach(function(e) {
+			elem.addEventListener(e, PointerHandler);
+		});
+
 	} else {
 		["pointerdown", "pointermove", "pointerup"].forEach(function(e) {
 			elem.removeEventListener(e, PointerHandler);
