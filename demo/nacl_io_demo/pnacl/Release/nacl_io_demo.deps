@@ -1,0 +1,65 @@
+# Updated by fix_deps.py
+pnacl/Release/nacl_io_demo.o: nacl_io_demo.c nacl_io_demo.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_module.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var_array.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var_dictionary.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/macros.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/sys/ioctl.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/sys/mount.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/sys/select.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/sys/time.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_errors.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_instance.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_messaging.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp_message_handler.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp_instance.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp_messaging.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/nacl_io/ioctl.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/nacl_io/nacl_io.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/nacl_io/ostypes.h \
+  handlers.h queue.h
+nacl_io_demo.c:
+nacl_io_demo.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_module.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var_array.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var_dictionary.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/macros.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/sys/ioctl.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/sys/mount.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/sys/select.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/sys/time.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_errors.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_instance.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_messaging.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp_message_handler.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp_instance.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp_messaging.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/nacl_io/ioctl.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/nacl_io/nacl_io.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/nacl_io/ostypes.h:
+handlers.h:
+queue.h:

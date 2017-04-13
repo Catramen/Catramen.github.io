@@ -1,0 +1,127 @@
+# Updated by fix_deps.py
+pnacl/Release/earth.o: earth.cc \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_input_event.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_time.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_touch_point.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/input_event.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/resource.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/instance_handle.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/pass_ref.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/touch_point.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/point.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/var_array.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/var_array_buffer.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/var_dictionary.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/sys/time.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/macros.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps_context_2d.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_graphics_2d.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_completion_callback.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_image_data.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps_event.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps_interface.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_audio.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_audio_config.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_console.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_core.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_file_io.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_array_output.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_file_info.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_file_ref.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_file_system.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_fullscreen.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_gamepad.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_graphics_3d.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_graphics_3d.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_instance.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_message_loop.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_messaging.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp_message_handler.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_mouse_cursor.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_mouse_lock.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_url_loader.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_url_request_info.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_url_response_info.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_module.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var_array.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var_array_buffer.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var_dictionary.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_view.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_websocket.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/thread_pool.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/atomicops.h
+earth.cc:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_input_event.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_time.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_touch_point.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/input_event.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/resource.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/instance_handle.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/pass_ref.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/touch_point.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/point.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/var_array.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/var_array_buffer.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/var_dictionary.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/sys/time.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/macros.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps_context_2d.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_graphics_2d.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_completion_callback.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_image_data.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps_event.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps_interface.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_audio.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_audio_config.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_console.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_core.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_file_io.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_array_output.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_file_info.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_file_ref.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_file_system.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_fullscreen.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_gamepad.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_graphics_3d.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_graphics_3d.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_instance.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_message_loop.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_messaging.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp_message_handler.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_mouse_cursor.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_mouse_lock.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_url_loader.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_url_request_info.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_url_response_info.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_module.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var_array.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var_array_buffer.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var_dictionary.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_view.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_websocket.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/thread_pool.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/atomicops.h:

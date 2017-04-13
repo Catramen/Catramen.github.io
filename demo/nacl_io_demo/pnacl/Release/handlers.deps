@@ -1,0 +1,42 @@
+# Updated by fix_deps.py
+pnacl/Release/handlers.o: handlers.c handlers.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/arpa/inet.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/netdb.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/netinet/in.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/netinet6/in6.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/sys/socket.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/nacl_io/osdirent.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/nacl_io/osinttypes.h \
+  nacl_io_demo.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_module.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var_array.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var_dictionary.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/macros.h
+handlers.c:
+handlers.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/arpa/inet.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/netdb.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/netinet/in.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/netinet6/in6.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/sys/socket.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/nacl_io/osdirent.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/nacl_io/osinttypes.h:
+nacl_io_demo.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_module.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var_array.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var_dictionary.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/macros.h:

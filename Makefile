@@ -1,63 +1,77 @@
-# Copyright (c) 2013 The Native Client Authors. All rights reserved.
+# Copyright (c) 2012 The Chromium Authors. All rights reserved.
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
 #
 # GNU Make based build file.  For details on GNU Make see:
-# http://www.gnu.org/software/make/manual/make.html
+#   http://www.gnu.org/software/make/manual/make.html
 #
 
-#
-# Get pepper directory for toolchain and includes.
-#
-# If NACL_SDK_ROOT is not set, then assume it can be found three directories up.
-#
-THIS_MAKEFILE := $(abspath $(lastword $(MAKEFILE_LIST)))
-NACL_SDK_ROOT ?= $(abspath $(dir $(THIS_MAKEFILE))../..)
+# Always use cmd.exe as the shell on Windows. Otherwise Make may try to search
+# the path for sh.exe. If it is found in a path with a space, the command will
+# fail.
+ifeq ($(OS),Windows_NT)
+  SHELL := cmd.exe
+endif
 
-# Project Build flags
-WARNINGS := -Wno-long-long -Wall -Wswitch-enum -pedantic -Werror
-CXXFLAGS := -pthread -std=gnu++98 $(WARNINGS)
+PROJECTS := \
+  api \
+  demo \
+  tutorial \
 
-#
-# Compute tool paths
-#
-GETOS := python $(NACL_SDK_ROOT)/tools/getos.py
-OSHELPERS = python $(NACL_SDK_ROOT)/tools/oshelpers.py
-OSNAME := $(shell $(GETOS))
-RM := $(OSHELPERS) rm
 
-PNACL_TC_PATH := $(abspath $(NACL_SDK_ROOT)/toolchain/$(OSNAME)_pnacl)
-PNACL_CXX := $(PNACL_TC_PATH)/bin/pnacl-clang++
-PNACL_FINALIZE := $(PNACL_TC_PATH)/bin/pnacl-finalize
-CXXFLAGS := -I$(NACL_SDK_ROOT)/include
-LDFLAGS := -L$(NACL_SDK_ROOT)/lib/pnacl/Release -lppapi_cpp -lppapi
+HTTPD_PY := python ../tools/httpd.py
+
+ifeq ($(TOOLCHAIN),all)
+TOOLCHAIN_ARG:=TOOLCHAIN=all
+endif
+
+# Define the default target
+all:
 
 #
-# Disable DOS PATH warning when using Cygwin based tools Windows
+# Target Macro
 #
-CYGWIN ?= nodosfilewarning
-export CYGWIN
-
-
-# Declare the ALL target first, to make the 'all' target the default build
-all: naclLogger.pexe
-
-clean:
-	$(RM) naclLogger.pexe naclLogger.bc
-
-naclLogger.bc: naclLogger.cc
-	$(PNACL_CXX) -o $@ $< -O2 $(CXXFLAGS) $(LDFLAGS)
-
-naclLogger.pexe: naclLogger.bc
-	$(PNACL_FINALIZE) -o $@ $<
-
-
+# Macro defines a phony target for each example, and adds it to a list of
+# targets.
 #
-# Makefile target to run the SDK's simple HTTP server and serve this example.
+# Note: We use targets for each project (instead of an explicit recipe) so
+# each project can be built in parallel.
 #
-HTTPD_PY := python $(NACL_SDK_ROOT)/tools/httpd.py
+define TARGET
+ALL_TARGET_LIST+=$(1)_ALL_TARGET
+.PHONY: $(1)_ALL_TARGET
+$(1)_ALL_TARGET: $$($(1)_DEPS)
+	+$(MAKE) -C $(1) $(TOOLCHAIN_ARG) all
+
+CLEAN_TARGET_LIST+=$(1)_CLEAN_TARGET
+.PHONY: $(1)_CLEAN_TARGET
+$(1)_CLEAN_TARGET:
+	+$(MAKE) -C $(1) $(TOOLCHAIN_ARG) clean
+endef
+
+
+# Define the various targets via the Macro
+$(foreach proj,$(PROJECTS),$(eval $(call TARGET,$(proj))))
+
+.PHONY: all
+all: $(ALL_TARGET_LIST)
+	@echo Done building targets.
+
+.PHONY: clean
+clean: $(CLEAN_TARGET_LIST)
+	@echo Done cleaning targets.
 
 .PHONY: serve
 serve: all
-	$(HTTPD_PY) -C $(CURDIR)
+	@echo Starting up python webserver.
+	@$(HTTPD_PY)
+
+# Phony aliases for backward compatibility
+RUN: run
+run: serve
+
+all_versions:
+	+$(MAKE) TOOLCHAIN=all
+
+.PHONY: RUN all_versions

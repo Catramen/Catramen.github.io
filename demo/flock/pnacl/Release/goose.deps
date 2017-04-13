@@ -1,0 +1,24 @@
+# Updated by fix_deps.py
+pnacl/Release/goose.o: goose.cc goose.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/rect.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/point.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/size.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/logging.h \
+  vector2.h
+goose.cc:
+goose.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/rect.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/point.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/size.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/logging.h:
+vector2.h:

@@ -1,0 +1,12 @@
+# Updated by fix_deps.py
+pnacl/Release/queue.o: queue.c queue.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h
+queue.c:
+queue.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h:

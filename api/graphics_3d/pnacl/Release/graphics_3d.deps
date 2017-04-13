@@ -1,0 +1,95 @@
+# Updated by fix_deps.py
+pnacl/Release/graphics_3d.o: graphics_3d.cc \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/GLES2/gl2.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/GLES2/gl2platform.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/KHR/khrplatform.h \
+  matrix.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/graphics_3d.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_graphics_3d.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_completion_callback.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_graphics_3d.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/resource.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/instance_handle.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/pass_ref.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/instance.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_console.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/view.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/rect.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/point.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/size.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/logging.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/module.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_module.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_core.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_time.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/core.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/var_array.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/lib/gl/gles2/gl2ext_ppapi.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_opengles2.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/dev/ppb_opengles2ext_dev.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/utility/completion_callback_factory.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/completion_callback.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_errors.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/output_traits.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/array_output.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_array_output.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/utility/completion_callback_factory_thread_traits.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/utility/threading/lock.h
+graphics_3d.cc:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/GLES2/gl2.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/GLES2/gl2platform.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/KHR/khrplatform.h:
+matrix.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/graphics_3d.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_graphics_3d.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_completion_callback.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_graphics_3d.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/resource.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/instance_handle.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/pass_ref.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/instance.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_console.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/view.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/rect.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/point.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/size.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/logging.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/module.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_module.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_core.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_time.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/core.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/var_array.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/lib/gl/gles2/gl2ext_ppapi.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_opengles2.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/dev/ppb_opengles2ext_dev.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/utility/completion_callback_factory.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/completion_callback.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_errors.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/output_traits.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/array_output.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_array_output.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/utility/completion_callback_factory_thread_traits.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/utility/threading/lock.h:

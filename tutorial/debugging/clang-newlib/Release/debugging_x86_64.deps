@@ -1,0 +1,53 @@
+# Updated by fix_deps.py
+clang-newlib/Release/debugging_x86_64.o: debugging.c \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_errors.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_module.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_core.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_completion_callback.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_time.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_instance.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_messaging.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp_message_handler.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp_instance.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp_messaging.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/error_handling/error_handling.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/error_handling/string_stream.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/macros.h
+debugging.c:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_errors.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_module.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_core.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_completion_callback.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_time.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_instance.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_messaging.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp_message_handler.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp_instance.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppp_messaging.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/error_handling/error_handling.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/error_handling/string_stream.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/macros.h:

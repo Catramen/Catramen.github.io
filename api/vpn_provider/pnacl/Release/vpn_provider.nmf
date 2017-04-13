@@ -1,0 +1,12 @@
+{
+  "program": {
+    "portable": {
+      "pnacl-translate": {
+        "url": "vpn_provider.pexe"
+      },
+      "pnacl-debug": {
+        "url": "vpn_provider_unstripped.bc"
+      }
+    }
+  }
+}

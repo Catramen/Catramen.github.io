@@ -1,0 +1,10 @@
+# Updated by fix_deps.py
+pnacl/Release/matrix.o: matrix.cc matrix.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/GLES2/gl2.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/GLES2/gl2platform.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/KHR/khrplatform.h
+matrix.cc:
+matrix.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/GLES2/gl2.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/GLES2/gl2platform.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/KHR/khrplatform.h:

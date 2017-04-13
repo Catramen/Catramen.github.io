@@ -1,0 +1,95 @@
+# Updated by fix_deps.py
+pnacl/Release/testing.o: testing.cc \
+  ../../../src/gtest/include/gtest/gtest.h \
+  ../../../src/gtest/include/gtest/internal/gtest-internal.h \
+  ../../../src/gtest/include/gtest/internal/gtest-port.h \
+  ../../../src/gtest/include/gtest/internal/gtest-port-arch.h \
+  ../../../src/gtest/include/gtest/internal/custom/gtest-port.h \
+  ../../../src/gtest/include/gtest/internal/gtest-tuple.h \
+  ../../../src/gtest/include/gtest/gtest-message.h \
+  ../../../src/gtest/include/gtest/internal/gtest-string.h \
+  ../../../src/gtest/include/gtest/internal/gtest-filepath.h \
+  ../../../src/gtest/include/gtest/internal/gtest-type-util.h \
+  ../../../src/gtest/include/gtest/gtest-death-test.h \
+  ../../../src/gtest/include/gtest/internal/gtest-death-test-internal.h \
+  ../../../src/gtest/include/gtest/gtest-param-test.h \
+  ../../../src/gtest/include/gtest/internal/gtest-param-util.h \
+  ../../../src/gtest/include/gtest/internal/gtest-linked_ptr.h \
+  ../../../src/gtest/include/gtest/gtest-printers.h \
+  ../../../src/gtest/include/gtest/internal/custom/gtest-printers.h \
+  ../../../src/gtest/include/gtest/internal/gtest-param-util-generated.h \
+  ../../../src/gtest/include/gtest/gtest_prod.h \
+  ../../../src/gtest/include/gtest/gtest-test-part.h \
+  ../../../src/gtest/include/gtest/gtest-typed-test.h \
+  ../../../src/gtest/include/gtest/gtest_pred_impl.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/instance.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_console.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/instance_handle.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/view.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/resource.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/pass_ref.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/rect.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/point.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/size.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/logging.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps_main.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/macros.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps_event.h
+testing.cc:
+../../../src/gtest/include/gtest/gtest.h:
+../../../src/gtest/include/gtest/internal/gtest-internal.h:
+../../../src/gtest/include/gtest/internal/gtest-port.h:
+../../../src/gtest/include/gtest/internal/gtest-port-arch.h:
+../../../src/gtest/include/gtest/internal/custom/gtest-port.h:
+../../../src/gtest/include/gtest/internal/gtest-tuple.h:
+../../../src/gtest/include/gtest/gtest-message.h:
+../../../src/gtest/include/gtest/internal/gtest-string.h:
+../../../src/gtest/include/gtest/internal/gtest-filepath.h:
+../../../src/gtest/include/gtest/internal/gtest-type-util.h:
+../../../src/gtest/include/gtest/gtest-death-test.h:
+../../../src/gtest/include/gtest/internal/gtest-death-test-internal.h:
+../../../src/gtest/include/gtest/gtest-param-test.h:
+../../../src/gtest/include/gtest/internal/gtest-param-util.h:
+../../../src/gtest/include/gtest/internal/gtest-linked_ptr.h:
+../../../src/gtest/include/gtest/gtest-printers.h:
+../../../src/gtest/include/gtest/internal/custom/gtest-printers.h:
+../../../src/gtest/include/gtest/internal/gtest-param-util-generated.h:
+../../../src/gtest/include/gtest/gtest_prod.h:
+../../../src/gtest/include/gtest/gtest-test-part.h:
+../../../src/gtest/include/gtest/gtest-typed-test.h:
+../../../src/gtest/include/gtest/gtest_pred_impl.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/instance.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_console.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/instance_handle.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/view.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/resource.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/pass_ref.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/rect.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/point.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/size.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/logging.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps_main.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/macros.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps_event.h:

@@ -1,0 +1,48 @@
+# Updated by fix_deps.py
+pnacl/Release/flock.o: flock.cc \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/sys/mount.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps_context_2d.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_graphics_2d.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_completion_callback.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_image_data.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps_event.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/macros.h \
+  goose.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/rect.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/point.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/size.h \
+  /Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/logging.h \
+  vector2.h sprite.h
+flock.cc:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/pnacl/sys/mount.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_rect.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_macros.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_point.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_stdint.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_size.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps_context_2d.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_resource.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_graphics_2d.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_bool.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_completion_callback.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_instance.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/ppb_image_data.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi_simple/ps_event.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/c/pp_var.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/sdk_util/macros.h:
+goose.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/rect.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/point.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/size.h:
+/Users/jkwang/Desktop/nacl_sdk/pepper_canary/include/ppapi/cpp/logging.h:
+vector2.h:
+sprite.h:
